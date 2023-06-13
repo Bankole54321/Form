@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Biostar 2</title>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="/Imges/Logo.png" alt="bundo logo"></a>
+      <span class="d-flex">
+        <a class="link-item text-decoration-none mx-5" href="#"><p class="small text-muted">Already have an account</p></a>
+      <button type="submit" class="btn btn-primary btn-sm rounded-pill">Sign in</button>
+      </span>
+    </div>
+  </nav>
+  <!--Header form-->
+  <div class="container-fluid border bg-primary text-white text-center mt-3">
+    <p class="h4 mt-5">CUSTOMER AGGREGATOR APPLICATION FORM</p>
+    <p class="small">Please select field as appropriate (All field to be completed by applicant)</p>
+  </div>
+  <!--Form field-->
+  <div class=" container-fluid form-details bg-light mt-4">
+    <div class="row">
+      <div class=" col-12 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <p class="small mt-2"><span class="fw-bold">CONTACT DETAILS</span><span class="text-muted"> (To be completed by applicant)</span></p>
+      </div>
+      <div class=" col-12 col-md-2"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class=" col-12 col-md-2"></div>
+    <div class="col-12 col-md-4">
+        <form class="mt-3">
+            <label  for="InputName" class="small"> COMPANY NAME:</label>
+            <input type="text" class="form-control" id="InputName">
+          </form>
+    </div>
+    <div class="col-12 col-md-4">
+        <form class="mt-3">
+            <label for="SelectNumber" class="small"> STAFF STRENGHT:</label>
+            <input type="number" class="form-control text-muted small" id="SelectNumber" placeholder="Number of staffs">
+          </form>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <form class="mt-3">
+          <label for="Address" class="small"> COMPANY EMAIL ADDRESS:</label>
+          <input type="text" class="form-control" id="Address">
+        </form>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="CompanyNumber" class="small"> COMPANY PHONE NUMBER:</label>
+          <input type="text" class="form-control" id="CompanyNumber">
+        </form>
+      </div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="AlternateNumber" class="small">ALTERNATE PHONE NUMBER:</label>
+          <input type="text" class="form-control" id="AlternateNumber">
+        </form>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="CompanyType" class="small">TYPE OF COMAPNY</label>
+          <input type="text" class="form-control" id="CompanyType">
+        </form>
+      </div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="RegistrationId" class="small"> C.A.C REGISTRATION ID</label>
+          <input type="number" class="form-control small" id="RegistrationId" placeholder="233333333"></input>
+        </form>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <form class="mt-3">
+          <label for="BusinessDescription" class="small"> BUSINESS DESCRIPTION*-</label>
+          <textarea type="text" class="form-control small text-muted" id="BusinessDescription" placeholder="Describe your business characters(not more than 250mcharacters)"></textarea>
+        </form>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-4 mt-3">
+        <label for="CustomerSelect" class="small">ACCESS POINT FOR CUSTOMERS</label>
+        <select class="form-select">
+          <option selected class="small text-muted">Mybundo website</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-4 mt-3">
+        <label for="SelfFinancing" class="small">SELF FINANCING/THIRD PARTY</label>
+        <select class="form-select">
+          <option selected class="small text-muted">Piggrims Solution Limited</option>
+          <option value="1">Fintech Soluton Limited</option>
+          <option value="2">Oxygen Resources Nig Ltd.</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="Platform" class="small">HOW DO YOU WANT TO USE THE PLATFORM?</label>
+          <input type="text" class="form-control" id="Platform">
+        </form>
+      </div>
+      <div class="col-12 col-md-4">
+        <form class="mt-3">
+          <label for="TypeofCustomer" class="small">WHAT TYPE OF CUSTOMER ARE YOU INCLUDING?</label>
+          <input type="text" class="form-control" id="TypeofCustomer">
+        </form>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+  </div>
+  <div class=" container-fluid form-details bg-light mt-4">
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <p class="small mt-2"><span class="fw-bold">DOCUMENT TO UPLOAD</span><span class="text-muted"> (To be completed by applicant)</span></p>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-12 col-md-2"></div>
+    <div class="col-12 col-md-8">
+      <form>
+        <label for="IncorperationCertificate" class="small">Certificate of Incorperation or Registered Business</label>
+        <input type="file" class="form-control small" id="IncorperationCertificate">
+      </form>
+    </div>
+    <div class="col-12 col-md-2"></div>
+  </div>
+  <div class=" container-fluid form-details bg-light mt-5">
+    <div class="row">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-8">
+        <p class="small mt-2"><span class="fw-bold">OFFICE USE ONLY</span><span class="text-muted"> (To be completed by applicant)</span></p>
+      </div>
+      <div class="col-12 col-md-2"></div>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-12 col-md-2"></div>
+    <div class="col-12 col-md-4">
+      <label for="RecoveryMode" class="small">MODE OF RECOVERY/AUTOMATION</label>
+      <select class="form-select">
+        <option selected></option>
+        <option value="1">Recovery Option 1</option>
+        <option value="2">Recovery Option 2</option>
+        <option value="3">Recovery Option 3</option>
+      </select>
+    </div>
+    <div class="col-12 col-md-4">
+      <label for="RepaymentMethod" class="small">PRIMARY REPAYMENT SOURCE</label>
+      <select class="form-select">
+        <option selected class="text-sm text-muted">Direct payment</option>
+        <option value="1">Payment 1</option>
+        <option value="2">Payment 2</option>
+        <option value="3">Payment 3</option>
+      </select>
+    </div>
+    <div class="col-12 col-md-2"></div>
+  </div>
+  <div class="row mt-2">
+    <div class="col-12 col-md-2"></div>
+    <div class="col-12 col-md-8">
+      <label for="DeliveryMode" class="small">MODE OF DELIVERY</label>
+      <select class="form-select">
+        <option selected></option>
+        <option value="1">Delivery 1</option>
+        <option value="2">Delivery 2</option>
+        <option value="3">Delivery 3</option>
+      </select>
+    </div>
+    <div class="col-12 col-md-2"></div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-12 col-md-2"></div>
+    <div class="col-12 col-md-7">
+      <button type="button" class="btn btn-primary btn-sm rounded-pill float-end">Submit</button>
+    </div>
+    <div class="col-12 col-md-3"></div>
+  </div>
+  <!--Footer-->
+  <div class="container-fluid border bg-primary p-5 mt-3">
+    <span class="d-flex justify-content-center"><img src="/Imges/Logo.png" alt="logo image"></span>
+    <p class="text-white text-center small mt-4">Bundo, a product of Pealyt, is a digital device financing marketplaces that focuses on improving access to utilities in Africa.<br>
+      Pealyt Solutions Limited is an innovative financial service company (payment, loans and saving) and technology<br> solution provider.
+    </p>
+    <div class="text-center">
+      <span class="d-flex flex-row justify-content-center mt-4">
+        <p class="small text-white lh-lg mx-5"><span class="fw-bold">Have a question?</span><br> 234 802 675 0890</p>
+        <p class="small text-white lh-lg mx-5"><span class="fw-bold">Follow Us</span><br><i class="bi bi-twitter me-4"></i> <i class="bi bi-instagram"></i></p>
+        <p class="small text-white lh-lg mx-5"><span class="fw-bold me-5">Contact Us</span><br> info@mybundo.com</p>
+      </span>
+    </div>
+    <p class="small text-white text-center mt-4">© 2022-2023 . All Rights Reserved</p>
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
